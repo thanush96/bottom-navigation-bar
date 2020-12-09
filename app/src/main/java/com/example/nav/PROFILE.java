@@ -12,10 +12,10 @@ import androidx.fragment.app.Fragment;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class Store extends Fragment {
+public class PROFILE extends Fragment {
 
 
-    public Store() {
+    public PROFILE() {
         // Required empty public constructor
     }
 
@@ -24,7 +24,7 @@ public class Store extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_store, container, false);
+        return inflater.inflate(R.layout.profile, container, false);
     }
 
 }

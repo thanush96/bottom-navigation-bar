@@ -2,23 +2,23 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item android:id="@+id/navigation_account"
-        android:icon="@drawable/ic_face_black_24dp"
+        android:icon="@drawable/account"
         android:title="Account" />
 
-    <item android:id="@+id/navigation_favourite"
-        android:icon="@drawable/ic_favorite_black_24dp"
-        android:title="Favourite" />
+    <item android:id="@+id/navigation_loan"
+        android:icon="@drawable/loan"
+        android:title="Loan" />
 
-    <item android:id="@+id/navigation_store"
-        android:icon="@drawable/ic_store_black_24dp"
-        android:title="Store" />
+    <item android:id="@+id/navigation_home"
+        android:icon="@drawable/home"
+        android:title="Home" />
 
-    <item android:id="@+id/navigation_cart"
-        android:icon="@drawable/ic_shopping_cart_black_24dp"
-        android:title="Cart" />
+    <item android:id="@+id/navigation_pawning"
+        android:icon="@drawable/account"
+        android:title="Pawning" />
 
-    <item android:id="@+id/navigation_camera"
-        android:icon="@drawable/ic_camera_black_24dp"
-        android:title="Camera" />
+    <item android:id="@+id/navigation_profile"
+        android:icon="@drawable/account"
+        android:title="Profile" />
 
 </menu>

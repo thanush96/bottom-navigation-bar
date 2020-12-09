@@ -3,15 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Cart"
-    android:background="@android:color/holo_blue_bright"
-
+    tools:context=".LOAN"
+    android:background="@android:color/darker_gray"
     >
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="cart" />
+        android:text="favourite" />
 
 </FrameLayout>

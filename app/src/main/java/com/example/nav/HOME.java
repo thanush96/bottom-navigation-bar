@@ -12,10 +12,10 @@ import androidx.fragment.app.Fragment;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class Camera extends Fragment {
+public class HOME extends Fragment {
 
 
-    public Camera() {
+    public HOME() {
         // Required empty public constructor
     }
 
@@ -24,7 +24,7 @@ public class Camera extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_camera, container, false);
+        return inflater.inflate(R.layout.home, container, false);
     }
 
 }
