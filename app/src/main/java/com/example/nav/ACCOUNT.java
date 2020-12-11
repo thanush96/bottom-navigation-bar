@@ -9,6 +9,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentTransaction;
 
 
 /**
@@ -16,7 +17,7 @@ import androidx.fragment.app.Fragment;
  */
 public class ACCOUNT extends Fragment {
 
-    Button button;
+    Button button,button2;
 
 
     public ACCOUNT() {
@@ -31,14 +32,28 @@ public class ACCOUNT extends Fragment {
 
         View view= inflater.inflate(R.layout.account, container, false);
         button= view.findViewById(R.id.btn);
+        button2= view.findViewById(R.id.btn2);
 
 
+        //ACTIVITY INTENT
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
                 Intent intent=new Intent(getActivity(),TWO.class);
                 startActivity(intent);
+
+            }
+        });
+
+        //FRAGMENT TO FRAGMENT
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                LOAN loan=new LOAN();
+                FragmentTransaction transaction=getFragmentManager().beginTransaction();
+                transaction.replace(R.id.container,loan);
+                transaction.commit();
 
             }
         });
